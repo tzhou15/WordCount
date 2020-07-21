@@ -19,9 +19,9 @@ public static void main(String[] args) throws IOException{
 			counts.add(1);
 		}
 	}
-	fileInput.close(); 	  //Close
+	fileInput.close(); 	  
 	fin.close();
-	for(int i = 0; i < words.size(); i++) {         	//Print out the results
+	for(int i = 0; i < words.size(); i++) {         	
 		System.out.println(words.get(i) + " occurred " + counts.get(i) + " times ");
 	}
 }
